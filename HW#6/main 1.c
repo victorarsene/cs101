@@ -18,7 +18,7 @@ int main()
     else if (i % 15 == 0)
         printf("Love IU");
     else
-        printf("%d/n", i);
+        printf("%d", i);
 
     return 0;
 }
