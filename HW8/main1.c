@@ -1,8 +1,8 @@
 
 #include <stdio.h>
 
-void print_spec(int i, int n){
-    for (int j=i; j<n; j++){
+void print_spec(int i, int rows){
+    for (int j=i; j<rows; j++){
         printf(" ");
     }
 }
@@ -14,9 +14,9 @@ void print_stars(int i) {
 }
 
 int main(){
-    int n = 5;
-    for (int i = 0; i<=n; i++){
-        print_spec(i, n);
+    int rows = 10;
+    for (int i = 0; i<=rows; i++){
+        print_spec(i, rows);
         print_stars(i);
         printf("\n");
     }
